@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $row = $koneksi ->execute_query($sql,[$username,$password]);
 
     if ($row) {
-        header("location:index.php");
+        header("location:admin2.php");
     }
 
 }

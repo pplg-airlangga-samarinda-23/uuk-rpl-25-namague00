@@ -4,6 +4,7 @@ require "koneksi.php";
 
 $sql = "SELECT username FROM admin";
 $rows = $koneksi-> execute_query($sql) -> fetch_all(MYSQLI_ASSOC);
+
 $no =0 ;
 ?>
 
