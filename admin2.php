@@ -13,10 +13,15 @@ $no =0 ;
 <html lang="en">
 <head>
     <title>Dashboard</title>
-    <h1>daftar kader</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pak sena</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <div class="manage-container">
+        <h2>daftar kader</h2>
+        <div class="table-wrapper">
         <thead>
             <table>
             <tr>
@@ -36,7 +41,11 @@ $no =0 ;
             <?php } ?>
         </tbody>
     </table>
-    <a href="admin1.php">tambah</a>
-    <a href="index.php">kembali</a>
+    </div>
+    <div class="manage-actions">
+        <a href="admin1.php" class="btn-back">tambah</a>
+        <a href="index.php" class="btn-back">kembali</a>
+    </div>
+    </div>
 </body>
 </html>
